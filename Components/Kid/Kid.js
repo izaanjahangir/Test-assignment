@@ -13,6 +13,7 @@ export default class Kid extends React.Component {
     render() {
         const { dressColor } = this.props;
         const { danceSteps, emotion, startedPerforming } = this.state;
+        let { currentStepIndex } = this.state;
         return (
             <div>
                 <div>dressColor: {dressColor})</div>
